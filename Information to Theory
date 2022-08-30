@@ -1,3 +1,16 @@
 View -> View component only 1 times return in our component,
 Text -> write a text 
 Button -> onPress method
+
+
+//keyword to dismiss
+<TouchableWithoutFeedback
+      onPress={() => {
+        // Keyboard.dismiss();
+        console.log('keyword dil');
+      }}>
+      <View style={style.container}>
+        <Text>App</Text>
+        <TextInput style={style.input} placeholder="enter name" />
+      </View>
+    </TouchableWithoutFeedback>
