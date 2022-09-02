@@ -15,4 +15,5 @@ Button -> onPress method
       </View>
     </TouchableWithoutFeedback>
     
-    //touchbleOpacity is used to test in touch and some action 
+    //touchbleOpacity is used to test in touch and some action of page
+    
